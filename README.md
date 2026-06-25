@@ -1,6 +1,18 @@
-# Chest X-ray Classification Assignment
+# Chest X-Ray Classification using Deep Learning
 
 This repository contains a polished version of the Deep Learning assignment for chest X-ray classification. It includes a reusable training script, model definitions, and utilities for evaluating performance on a 64x64 chest X-ray dataset.
+This project investigates the use of deep neural networks for classifying chest X-ray images.
+
+Models implemented:
+- Multi-Layer Perceptron (MLP)
+- Convolutional Neural Network (CNN)
+- CNN with Early Stopping
+- CNN with L2 Regularization
+
+The project evaluates model performance and compares different regularization techniques to reduce overfitting.
+
+Best validation accuracy:
+84.3% using CNN with Early Stopping.
 
 ## Files
 
