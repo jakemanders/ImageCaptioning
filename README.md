@@ -59,9 +59,10 @@ python train.py --data-dir chest_xray_64 --model cnn --strategy early_stopping -
 
 Results are saved under the `output/` directory by default:
 
-- `*.pth` - trained model weights
-- `metrics.txt` - final loss and accuracy
-- `loss_curve.png` / `accuracy_curve.png` - saved plots when using `--plot`
+- `output/*.pth` - trained model weights
+- `output/metrics.txt` - final loss and accuracy
+- `output/loss_curves.png` - saved loss plot when using `--plot`
+- `output/mlp_noreg_accuracy.png` / `output/early_stopping_accuracy.png` / `output/l2_reg_accuracy.png` - saved example accuracy plots
 
 ## Notes
 
